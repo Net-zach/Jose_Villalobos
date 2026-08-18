@@ -35,6 +35,8 @@ Three-layer architecture:
 
 <!-- IMAGE: End-to-end pipeline overview -->
 <!-- ![Robotics ML Pipeline](./assets/synthesis-pipeline-overview.png) -->
+<img width="2730" height="1250" alt="image" src="https://github.com/user-attachments/assets/84f8c662-fc68-4210-9290-f14382a59b32" />
+
 *(Pipeline overview — data collection → synthetic training → sensor fusion → real-world validation)*
 
 The pipeline runs infrastructure and data collection through synthetic training, sensor fusion, real-world validation, and a continuous fine-tune/re-train loop when metrics fail — the same evaluation loop backs both the 2D (YOLO) and 3D (PointPillars) model selection stages.
