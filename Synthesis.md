@@ -77,6 +77,8 @@ This is deliberately marked as proposed, not built. The node-level isolation (on
 
 ## Sensor Fusion — Where v1.1 Ends and v1.2 Begins
 
+The video shows v1.1 in its current state. You can see radar tracking working — raw points come in, clusters form, and the UKF predicts vehicle paths. The video quality is a bit rough because I'm still tuning the ROS 2 bridge's publish rate and the Tailscale VPN adds jitter. That's actually why I built the transport redundancy architecture — so a flaky network link doesn't kill the system. The video demonstrates the core functionality; the polish comes after I lock in the sensor fusion layer.
+
 
 
 https://github.com/user-attachments/assets/39bd4d05-cb2b-41e4-b455-6166319256ea
