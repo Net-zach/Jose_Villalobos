@@ -83,7 +83,8 @@ The video shows v1.1 in its current state. You can see radar tracking working â€
 
 
 
-https://github.com/user-attachments/assets/39bd4d05-cb2b-41e4-b455-6166319256ea
+https://github.com/user-attachments/assets/7f9542b5-68ee-4f45-932b-69548c9e3082
+
 
 
 Radar processing is built and live today. Camera and LiDAR tooling are the current work. Fusion is the next milestone before a 1.2 branch.
